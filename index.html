@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The band</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="root">
+        <div class="navigation">
+            <ul class="nav__list">
+                <li class="nav__item">Home</li>
+                <li class="nav__item">
+                    <a href="#band">
+                       Band
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#tour">
+                        Tour
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+                <li class="nav__item">
+                    More
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </li>
+            </ul>
+            <span class="nav__search"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></span>
+        </div>
+        <div class="slide-show">
+            <img src="./img/slide1.jpg" alt="" class="slide-show__img">
+            <h3 class="slide-show__title">Los Angeles</h3>
+            <p class="slide-show__desc">We had the best time playing at Venice Beach!</p>
+        </div>
+        <div class="about-member" id="band">
+            <h2 class="about-member__title">THE BAND</h2>
+            <span class="about-member__slogun">We love music</span>
+            <p class="about-member__desc">We have created a fictional band website. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            <div class="about-member__list">
+                <div class="about-member__item">
+                    <h5 class="about-member__item-name">Name</h5>
+                    <img src="./img/bandmember.jpg" alt="" class="about-member__item-img">
+                </div>
+                <div class="about-member__item">
+                    <h5 class="about-member__item-name">Name</h5>
+                    <img src="./img/bandmember.jpg" alt="" class="about-member__item-img">
+                </div>
+                <div class="about-member__item">
+                    <h5 class="about-member__item-name">Name</h5>
+                    <img src="./img/bandmember.jpg" alt="" class="about-member__item-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="wrap">
+            <div class="tour-dates" id="tour">
+                <h2 class="tour-dates__title">TOUR DATES</h2>
+                <span class="tour-dates__slogun">Remember to book your tickets!</span>
+                <ul class="tour-dates__list">
+                    <li class="tour-dates__item">
+                        <span class="tour-dates__item-text">September</span>
+                        <span class="tour-dates__item-sold-out">Sold out</span>
+                    </li>
+                    <li class="tour-dates__item">
+                        <span class="tour-dates__item-text">October</span>
+                        <span class="tour-dates__item-sold-out">Sold out</span>
+                    </li>
+                    <li class="tour-dates__item">
+                        <span class="tour-dates__item-text">November</span>
+                        <span class="tour-dates__item-quantity">3</span>
+                    </li>
+                </ul>
+                <div class="tour-dates__wrap">
+                    <div class="tour-dates__wrap-item">
+                        <img src="./img/newyork.jpg" alt="" class="tour-dates__wrap-item-img">
+                        <h4 class="tour-dates__wrap-item-name">New York</h4>
+                        <p class="tour-dates__wrap-item-text">Fri 27 Nov 2016</p>
+                        <p class="tour-dates__wrap-item-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                        </p>
+                        <button class="tour-dates__wrap-item-button">Buy Tickets</button>
+                    </div>
+                    <div class="tour-dates__wrap-item">
+                        <img src="./img/paris.jpg" alt="" class="tour-dates__wrap-item-img">
+                        <h4 class="tour-dates__wrap-item-name">Paris</h4>
+                        <p class="tour-dates__wrap-item-text">Sat 28 Nov 2016</p>
+                        <p class="tour-dates__wrap-item-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                        </p>
+                        <button class="tour-dates__wrap-item-button">Buy Tickets</button>
+                    </div>
+                    <div class="tour-dates__wrap-item">
+                        <img src="./img/sanfran.jpg" alt="" class="tour-dates__wrap-item-img">
+                        <h4 class="tour-dates__wrap-item-name">San Francisco</h4>
+                        <p class="tour-dates__wrap-item-text">Sun 29 Nov 2016</p>
+                        <p class="tour-dates__wrap-item-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                        </p>
+                        <button class="tour-dates__wrap-item-button">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <h2 class="contact__title">CONTACT</h2>
+            <p class="contact__slogun">Fan? Drop a note!</p>
+            <div class="contact__wrap">
+                <div class="contact__info">
+                    <div class="contact__info-wrap">
+                        <i class="contact__info-icon fa-solid fa-location-dot"></i>
+                        <span class="contact__info-text">Chicago, US</span>
+                    </div>
+                    <div class="contact__info-wrap">
+                        <i class="contact__info-icon fa-solid fa-phone"></i>
+                        <span class="contact__info-text">Phone: +00 151515</span>
+                    </div>
+                    <div class="contact__info-wrap">
+                        <i class="contact__info-icon fa-solid fa-envelope"></i>
+                        <span class="contact__info-text">Email: mail@mail.com</span>
+                    </div>
+                </div>
+                <form action="" class="contact__form">
+                    <div class="contact__form-wrap">
+                        <input type="text" class="contact__form-input" placeholder="Name" required>
+                        <input type="email" class="contact__form-input" placeholder="Email" required>
+                    </div>
+
+                    <input type="text" class="contact__form-message" placeholder="Message" required>
+                    <button type="submit" class="contact__form-submit">SEND</button>
+                </form>
+            </div>
+        </div>
+        <img src="./img/map.jpg" alt="" class="map">
+        <div class="footer">
+            <div class="footer__icon">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <p class="footer__no-copy-right">Powered by
+                <a href="#" class="footer__link">w3.css</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
